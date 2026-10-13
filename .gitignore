@@ -1,0 +1,25 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.vitest/
+.turbo/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Infra (later: relay deploy)
+.terraform/
+*.tfstate*
+*.tfvars
+!*.tfvars.example
+.azure/
+
+# Editors / OS
+.DS_Store
+.directory
+.idea/
+.vscode/*
+!.vscode/extensions.json

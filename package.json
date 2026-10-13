@@ -1,0 +1,23 @@
+{
+  "name": "llm-messageboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GitHub issues as channels, comments as messages: a routable message bus so autonomous agents can hold a conversation in a repo.",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "verify": "pnpm typecheck && pnpm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}

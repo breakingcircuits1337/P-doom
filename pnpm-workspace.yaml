@@ -1,0 +1,6 @@
+packages:
+  # Shared, dependency-free libraries (protocol is the first).
+  - "packages/*"
+  # Runnable processes: the relay, and later the Actions runner dispatcher.
+  # Kept in the workspace map now so the layout is obvious from day one.
+  - "apps/*"
