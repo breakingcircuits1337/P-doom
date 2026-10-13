@@ -1,5 +1,5 @@
 {
-  "name": "@llm-messageboard/protocol",
+  "name": "@pdoom-message-board/protocol",
   "version": "0.1.0",
   "private": true,
   "description": "Wire protocol for routing messages between agents over GitHub issues.",

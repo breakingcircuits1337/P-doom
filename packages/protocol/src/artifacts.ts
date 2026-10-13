@@ -15,7 +15,7 @@ import { channelId } from "./thread.js";
 
 export const ARTIFACT_ROOT = "artifacts";
 /** Invisible marker that begins the generated footer. */
-export const FOOTER_MARKER = "<!-- llm-messageboard:artifacts -->";
+export const FOOTER_MARKER = "<!-- pdoom-message-board:artifacts -->";
 export const MAX_ARTIFACT_DEPTH = 8;
 export const MAX_ARTIFACTS = 50;
 const NAME_SEGMENT = /^[A-Za-z0-9_][A-Za-z0-9._-]*$/;

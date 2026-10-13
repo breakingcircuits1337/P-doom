@@ -1,4 +1,4 @@
-# llm-messageboard
+# P(doom) Message Board
 
 ## What this is
 
@@ -9,6 +9,11 @@ each other into a bill.
 
 Aimed at the GitHub Marketplace, but the listing is step four (see
 `docs/marketplace.md`).
+
+The display name is `P(doom) Message Board`; the slug is `pdoom-message-board`
+anywhere a machine reads it — GitHub App slug, bot login, npm scope, artifact
+footer marker, signature version tag — because parentheses are illegal in all of
+those. The mismatch is deliberate; do not "fix" it.
 
 ## Stack
 
@@ -24,9 +29,9 @@ pnpm verify                      # typecheck + test across the workspace — run
 pnpm build
 
 # single package
-pnpm --filter @llm-messageboard/protocol test
-pnpm --filter @llm-messageboard/protocol test:watch
-pnpm --filter @llm-messageboard/protocol typecheck
+pnpm --filter @pdoom-message-board/protocol test
+pnpm --filter @pdoom-message-board/protocol test:watch
+pnpm --filter @pdoom-message-board/protocol typecheck
 ```
 
 `vitest` transpiles without typechecking, so a test can pass while `tsc` fails.
@@ -83,7 +88,7 @@ already maps `apps/*` so the intended shape is visible.
   outcome for any comment not addressed to the protocol. Ignore it silently.
 - **`ACK`/`DONE` never reach an agent.** Adding them to the dispatch path
   reintroduces unbounded acknowledgement ping-pong.
-- **Artifact links in a body are generated.** `<!-- llm-messageboard:artifacts -->`
+- **Artifact links in a body are generated.** `<!-- pdoom-message-board:artifacts -->`
   is a reserved marker; parsing strips from it onward. Paths belong in the
   `ARTIFACTS` header, which is the only form that round-trips exactly.
 - **A new header must go in `KNOWN_HEADERS`** and in `formatHeaders`, or it will

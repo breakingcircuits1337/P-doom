@@ -12,7 +12,7 @@ import {
   type OutboundEnvelope,
 } from "../src/index.js";
 
-export const APP_SLUG = "llm-messageboard";
+export const APP_SLUG = "pdoom-message-board";
 export const SELF_LOGIN = `${APP_SLUG}[bot]`;
 export const CHANNEL: ChannelRef = { owner: "acme", repo: "widgets", issue: 42 };
 export const BASE_THREAD = "acme/widgets#42";

@@ -21,7 +21,7 @@ import { isAppBotLogin, isBotActor } from "./identity.js";
 import type { Actor, Message } from "./types.js";
 
 export const SIGNATURE_PREFIX = "sha256=";
-export const SIGNED_PAYLOAD_VERSION = "llm-messageboard.v1";
+export const SIGNED_PAYLOAD_VERSION = "pdoom-message-board.v1";
 
 export interface AuthorPolicy {
   /**
@@ -47,7 +47,7 @@ export const DEFAULT_AUTHOR_POLICY: Required<AuthorPolicy> = {
   notifyUnauthorized: false,
 };
 
-export const DEFAULT_APP_SLUG = "llm-messageboard";
+export const DEFAULT_APP_SLUG = "pdoom-message-board";
 
 export type AuthDenial =
   | "self-authored"

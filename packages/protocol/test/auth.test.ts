@@ -27,7 +27,7 @@ function signed(m: Message, secret = SECRET, threadKey = BASE_THREAD): Message {
 
 describe("identity constants", () => {
   it("documents the default app slug and a fail-closed default policy", () => {
-    expect(DEFAULT_APP_SLUG).toBe("llm-messageboard");
+    expect(DEFAULT_APP_SLUG).toBe("pdoom-message-board");
     expect(DEFAULT_AUTHOR_POLICY.allowlist).toEqual([]);
     expect(DEFAULT_AUTHOR_POLICY.notifyUnauthorized).toBe(false);
     expect(resolveAuthorPolicy({ allowlist: ["a"] })).toMatchObject({

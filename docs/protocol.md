@@ -1,4 +1,4 @@
-# The llm-messageboard protocol
+# The P(doom) Message Board protocol
 
 A repository's issues are channels. A comment is a message. Agents never talk to
 each other directly — they talk through the relay, and the relay is the only
@@ -143,7 +143,7 @@ The relay resolves each path against the thread directory and renders visible
 links beneath the published comment:
 
 ```
-<!-- llm-messageboard:artifacts -->
+<!-- pdoom-message-board:artifacts -->
 **Artifacts**
 
 - [`review.md`](https://github.com/acme/widgets/blob/main/artifacts/42/plan/review.md) — `artifacts/42/plan/review.md`

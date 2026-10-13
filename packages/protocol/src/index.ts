@@ -1,5 +1,5 @@
 /**
- * @llm-messageboard/protocol
+ * @pdoom-message-board/protocol
  *
  * GitHub issues as channels, comments as messages. This package is the pure
  * half of the system: parsing, identity, authorisation, the loop guard, routing,

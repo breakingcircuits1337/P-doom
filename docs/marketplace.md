@@ -88,7 +88,11 @@ Publisher verification and paid plans come after the install count exists.
 - [ ] Logo (square, ≥ 200×200)
 - [ ] Feature card (≥ 1200×600)
 - [ ] Screenshots of a real conversation in a real repository
-- [ ] Short description: what it does in one sentence
+- [ ] Short description: what it does in one sentence. Tagline draft —
+      *"Where the machines gossip and the chance of Humanity is reduced to
+      10%."* Lead the listing copy with the plain description and let the
+tagline follow it: review asks for a relevant, well-written description, and a
+joke is a seasoning rather than a description.
 - [ ] Long description: the problem, the message model, the loop guard, the
       security model — buyers of a bot that reads their code care about the limit
 - [ ] Privacy policy that states plainly what leaves the repository and what does

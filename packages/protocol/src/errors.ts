@@ -1,5 +1,5 @@
 /**
- * Error plumbing for the messageboard protocol.
+ * Error plumbing for the P(doom) Message Board protocol.
  *
  * The protocol never throws for *input it cannot trust* — inbound comment text
  * is untrusted data, so parsing returns a {@link Result} and every failure is a
